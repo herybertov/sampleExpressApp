@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "undefined/subscriptions/ed52aa92-4f8a-4025-89bf-1a3af42963b5/resourceGroups/unisap/providers/Microsoft.Web/sites/sifcoopexpressserver",
+  "appService.deploySubpath": "."
+}
