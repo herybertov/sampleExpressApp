@@ -9,7 +9,8 @@ var usersRouter = require('./routes/users');
 var astridRouter = require('./routes/astrid');
 
 var app = express();
-
+// Configura el middleware de CORS para permitir solicitudes desde cualquier sitio
+app.use(cors());
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
